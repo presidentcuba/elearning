@@ -1,0 +1,44 @@
+[debug] [2021-10-30T02:38:49.657Z] ----------------------------------------------------------------------
+[debug] [2021-10-30T02:38:49.659Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\TINHBG\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-10-30T02:38:49.660Z] CLI Version:   9.21.0
+[debug] [2021-10-30T02:38:49.660Z] Platform:      win32
+[debug] [2021-10-30T02:38:49.660Z] Node Version:  v14.16.1
+[debug] [2021-10-30T02:38:49.661Z] Time:          Sat Oct 30 2021 09:38:49 GMT+0700 (Indochina Time)
+[debug] [2021-10-30T02:38:49.661Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-30T02:38:49.724Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-30T02:38:49.724Z] > authorizing via signed-in user (anhnongdandan@gmail.com)
+[debug] [2021-10-30T02:38:49.724Z] [iam] checking project project-elearning-c7ae4 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-10-30T02:38:49.726Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-30T02:38:49.727Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-30T02:38:49.954Z] <<< HTTP RESPONSE 200 {"date":"Sat, 30 Oct 2021 02:38:49 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-30T02:38:49.989Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/project-elearning-c7ae4:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-10-30T02:38:51.030Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 30 Oct 2021 02:38:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=833","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-30T02:38:51.034Z] > refreshing access token with scopes: []
+[debug] [2021-10-30T02:38:51.034Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-30T02:38:51.230Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sat, 30 Oct 2021 02:38:50 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-30T02:38:51.266Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/project-elearning-c7ae4 [none]
+[debug] [2021-10-30T02:38:51.791Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/project-elearning-c7ae4 200
+[debug] [2021-10-30T02:38:51.791Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/project-elearning-c7ae4 {"projectId":"project-elearning-c7ae4","projectNumber":"197410127585","displayName":"project-elearning","name":"projects/project-elearning-c7ae4","resources":{"hostingSite":"project-elearning-c7ae4"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'project-elearning-c7ae4'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-10-30T02:38:51.796Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-30T02:38:51.796Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-30T02:38:51.988Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 30 Oct 2021 02:38:51 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-30T02:38:52.020Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/project-elearning-c7ae4/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-10-30T02:39:03.388Z] Error: socket hang up
+    at connResetException (internal/errors.js:607:14)
+    at TLSSocket.socketOnEnd (_http_client.js:493:23)
+    at TLSSocket.emit (events.js:327:22)
+    at TLSSocket.EventEmitter.emit (domain.js:467:12)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Server Error. socket hang up
