@@ -7,29 +7,7 @@ import AdminLayout from "./layouts/AdminLayout";
 
 // Custom Route
 import AdminRoute from "./auth/AdminRoute";
-//import firebase
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyC7FpkK21YKGeHndn0CWm13mwrSRfSyLrM",
-  authDomain: "project-elearning-c7ae4.firebaseapp.com",
-  projectId: "project-elearning-c7ae4",
-  storageBucket: "project-elearning-c7ae4.appspot.com",
-  messagingSenderId: "197410127585",
-  appId: "1:197410127585:web:f9ac0ee17b973f2be681a0",
-  measurementId: "G-G70V7FW8M9"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-// -----
 // Sử dụng lazy load không import trực tiếp Page vào
 const Home = lazy(() => import("./pages/Home"));
 const Courses = lazy(() => import("./pages/Courses"));
