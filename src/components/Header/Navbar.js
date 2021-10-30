@@ -5,7 +5,8 @@ import { useSelector, useDispatch } from "react-redux";
 import NavbarMobile from "./NavbarMobile";
 import Category from "./Category";
 import { getListCourse } from "src/actions/courses";
-import logo from "./logo-udemy.svg";
+import logo from "src/images/logo-udemy.svg";
+import profile from "src/images/profile.png";
 
 export default function Navbar() {
     const dispatch = useDispatch();
@@ -108,7 +109,7 @@ export default function Navbar() {
                         ) : (
                             <>
                             <div className="image-profile">
-                                <img src="./images/profile.png"></img>
+                                <img src={profile}></img>
                             </div>
                             <ul className="sub-profile">
                                 <li>

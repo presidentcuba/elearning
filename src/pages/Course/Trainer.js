@@ -3,7 +3,7 @@ import { BsFillStarFill, BsPeopleFill } from "react-icons/bs";
 import { AiFillPlayCircle } from "react-icons/ai";
 import { GiRibbonMedal } from "react-icons/gi";
 import { FaAngleUp, FaAngleDown } from "react-icons/fa";
-
+import trainer from "src/images/trainer.jpg"
 export default function Trainer() {
     const [show, setShow] = useState(false);
     return (
@@ -15,7 +15,7 @@ export default function Trainer() {
                     <p>Python Developer</p>
                     <div className="trainer__info-item">
                         <div className="trainer__info-item-image">
-                            <img src="../images/trainer.jpg"></img>
+                            <img src={trainer}></img>
                         </div>
                         <div className="trainer__info-item-thread">
                             <p>

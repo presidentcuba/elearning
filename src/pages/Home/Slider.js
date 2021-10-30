@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
-import { searchCourse } from "src/actions/searchCourse"
+import { searchCourse } from "src/actions/searchCourse";
+import slider from "src/images/slider.jpg"
 export default function Slider() {
     const dispatch = useDispatch();
     const [searchTerm, setSearchTerm] = useState("");
@@ -13,7 +14,7 @@ export default function Slider() {
     return (
         <div className="slider">
             <div className="slider-image">
-                <img className="w-100" src="./images/slider.jpg"></img>
+                <img className="w-100" src={slider}></img>
             </div>
             <div className="slider-form-search">
                 <h1>New to Udemy? Lucky you.</h1>

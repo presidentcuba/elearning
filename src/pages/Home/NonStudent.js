@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import instructor from "src/images/instructor.jpg";
+import ub from "src/images/ub.jpg";
+import transform from "src/images/transform.jpg"
 export default function NonStudent({num}) {
     return (
         <>
@@ -8,7 +11,7 @@ export default function NonStudent({num}) {
                 <div className="non-student-box">
                     <div className="non-student__content">
                         <div className="non-student__content-image">
-                            <img src="./images/instructor.jpg" alt=""></img>
+                            <img src={instructor} alt=""></img>
                         </div>
                         <div className="non-student__content-info">
                             <h3 className="info-header">
@@ -39,7 +42,7 @@ export default function NonStudent({num}) {
                             <Link className="info-link" to="/">Get Udemy Business</Link>
                         </div>
                         <div className="non-student__content-image">
-                            <img src="./images/ub.jpg" alt=""></img>
+                            <img src={ub} alt=""></img>
                         </div>
                     </div>
                 </div>
@@ -51,7 +54,7 @@ export default function NonStudent({num}) {
                 <div className="non-student-box">
                     <div className="non-student__content">
                         <div className="non-student__content-image">
-                            <img src="./images/transform.jpg" alt=""></img>
+                            <img src={transform} alt=""></img>
                         </div>
                         <div className="non-student__content-info">
                             <h3 className="info-header">

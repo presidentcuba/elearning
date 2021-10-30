@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "y",
+    "public": "buid",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -11,6 +11,12 @@
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "emulators": {
+      "hosting": {
+        "port": 5000,
+        "host": "0.0.0.0"
+      }
+    }
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "src/images/logo.svg";
 export default function Footer() {
   return (
       <div className="footer">
@@ -41,7 +41,7 @@ export default function Footer() {
           <div className="footer__bot">
               <div className="row">
                 <div className="col-6 content__left">
-                    <img src="./images/logo.svg" alt="" />
+                    <img src={logo} alt="" />
                 </div>
                 <div className="col-6 content__right">
                   <p className="text-right ml-5">Copyright © 2021 Udemy, Inc.</p>
